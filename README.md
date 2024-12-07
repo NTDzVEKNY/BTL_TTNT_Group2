@@ -12,4 +12,5 @@ Requirements:
         Scikit-learn 
         Matplotlib
 Nếu dùng Demo source thì chạy luôn file test
-nếu dùng train thì đợi hướng dẫn.
+
+Nếu dùng train thì đợi hướng dẫn.

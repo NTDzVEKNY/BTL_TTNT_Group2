@@ -123,4 +123,24 @@ vgghist = vggmodel.fit(
     callbacks=callbacks_list,
 )
 
+# -------------Vẽ biểu đồ thể hiện độ chính xác và độ lỗi của mô hình-------------
+legend = ['train','validation']
+
+plt.plot(vgghist.history['accuracy'])
+plt.plot(vgghist.history['val_accuracy'])
+plt.title("Accuracy")
+plt.xlabel("epochs")
+plt.ylabel("accuracy")
+plt.legend(legend,loc='upper left')
+plt.show()
+
+plt.plot(vgghist.history['loss'])
+plt.plot(vgghist.history['val_loss'])
+plt.title("Binary cross-entropy loss")
+plt.xlabel("epochs")
+plt.ylabel("loss")
+plt.legend(legend,loc='upper left')
+plt.show()
+
+#------Lưu model---------------
 vggmodel.save(os.path.join(path, "vggmodel.keras"))

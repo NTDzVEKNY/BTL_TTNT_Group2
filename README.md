@@ -1,4 +1,4 @@
-# hƯỚNG DẪN SỬ DỤNG TRƯỚC KHI DÙNG
+# HƯỚNG DẪN SỬ DỤNG TRƯỚC KHI DÙNG
 Dự án: Nhận diện chó mèo bằng Giải thuật CNN
 
 Requirements:

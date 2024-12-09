@@ -1,5 +1,5 @@
 # BÀI TẬP LỚN MÔN TRÍ TUỆ NHÂN TẠO
-Dự án: Nhận diện chó mèo bằng Giải thuật CNN
+Dự án: Ứng dụng CNN để xây dựng hệ thống nhận diện chó mèo
 
 Requirements:
 

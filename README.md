@@ -13,7 +13,11 @@ Requirements:
         Scikit-learn (ver >= 1.5.2)
         Matplotlib (ver >= 3.9.3)
 
- If you use Window run this code after install conda in conda cmd: 
+If you use Window (You can skip this section if you only run TensorFlow on CPU)
+     
+- First install NVIDIA GPU driver if you have not.
+        
+- Then install the CUDA, cuDNN with conda:
 ```
 conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
 ```

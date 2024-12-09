@@ -1,4 +1,4 @@
-# HƯỚNG DẪN SỬ DỤNG TRƯỚC KHI DÙNG
+# BÀI TẬP LỚN MÔN TRÍ TUỆ NHÂN TẠO
 Dự án: Nhận diện chó mèo bằng Giải thuật CNN
 
 Requirements:

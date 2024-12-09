@@ -8,7 +8,7 @@ cap = cv2.VideoCapture(0)
 
 # Load model đã train
 my_model = load_model("vggmodel.keras")
-my_model.load_weights("weights-41-0.90.weights.h5")
+my_model.load_weights("weights-20-0.86.weights.h5")
 
 while (True):
 

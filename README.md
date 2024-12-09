@@ -3,26 +3,12 @@ Dự án: Nhận diện chó mèo bằng Giải thuật CNN
 
 Requirements:
 
-    Virtual Environment: conda
+    Python version : >= 3.13.0
+    Virtual Environment: conda (ver >= 21.11.0)
     Packages:
-        Jax
-        Keras (Included: numpy)
-        Tensorflow
-        Opencv-python
-        Scikit-learn 
-        Matplotlib
-
-Yêu cầu:
-
-    IDE: Chạy chương trình trên PyCharm.
-    Cấu hình máy tính:
-        Hệ điều hành: Windows 11, Windows 10, 8/8.1, Linux, Mac,…
-        CPU :    Intel, Core i3 trở lên
-        RAM :     4 GB trở lên
-        Ổ cứng :    HDD, SSD
-        System type: 64 bit, 32 bit
-
-
-Nếu dùng Demo source thì chạy luôn file test
-
-Nếu dùng train thì đợi hướng dẫn.
+        Jax (ver >= 0.4.36)
+        Keras (ver >= 3.7.0) (Included: numpy) 
+        Tensorflow (ver >= 2.18.0)
+        Opencv-python (ver >= 4.10.0)
+        Scikit-learn (ver >= 1.5.2)
+        Matplotlib (ver >= 3.9.3)

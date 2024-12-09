@@ -12,3 +12,8 @@ Requirements:
         Opencv-python (ver >= 4.10.0)
         Scikit-learn (ver >= 1.5.2)
         Matplotlib (ver >= 3.9.3)
+
+ If you use Window run this code after install conda in conda cmd: 
+```
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+```
